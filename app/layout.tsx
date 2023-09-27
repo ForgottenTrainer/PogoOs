@@ -2,16 +2,16 @@ import { Analytics } from "@vercel/analytics/react";
 import { Metadata } from "next";
 import "../styles/globals.css";
 
-let title = "Dream Room Generator";
+let title = "Pogo Os community";
 let description = "Generate your dream room in seconds.";
-let ogimage = "https://roomgpt-demo.vercel.app/og-image.png";
-let sitename = "roomGPT.io";
+let ogimage = "/file.jpg";
+let sitename = "pogos";
 
 export const metadata: Metadata = {
   title,
   description,
   icons: {
-    icon: "/favicon.ico",
+    icon: "/file.jpg",
   },
   openGraph: {
     images: [ogimage],
